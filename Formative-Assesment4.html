@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Atelier Club </title>
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        nav {
+  display: flex;
+  gap: 20px; 
+  align-items: center; 
+}
+    
+</style> 
+</head>
+
+<header style="margin: 20px;">
+    <h1 style="font-family: Arial, sans-serif;"> Atelier Club </h1>
+    <nav>
+    <a href="#About"> About </a>
+
+    <a href="#Schedule"> Schedule </a>
+
+    <a href="#Location"> Location </a>
+
+    <a href="#Contact"> Contact </a>
+</nav>
+</header>
+<br> 
+<hr> 
+<br> 
+
+<body style="font-family: Arial, sans-serif; background-color: #f4f4e5; color: #333;">
+    <main style="margin: 20px;"> 
+        <section id="About">
+            <h2> About </h2>
+            <p> Welcome to Atelier Club! </p> 
+            <p> A digital art house and creative hub for digital artists, designers, and visual innovators. The Atelier Club serves as a platform for collaboration, learning, and showcasing digital creativity. <br> 
+            </p>
+            <h3> Atelier Club Offers: </h3>
+            <ul> 
+                <li> Digital Art Exhibitions </li>
+                <li> Workshops and Tutorials </li>
+                <li> Community Projects </li> 
+            </ul>
+            <h3> How to join the Atelier Club? </h3>
+            <p> To join the Atelier Club, follow these steps:</p>
+            <ol>
+                <li> Step 1 - Fill out the membership application form. </li>
+                <li> Step 2 - Submit the form along with any required documentation (If requested by the club). </li>
+                <li> Step 3 - Attend an orientation session to learn more about the club and its activities. </li>
+            </ol>
+        </section>
+        <br> 
+        <hr>
+        <br>
+        <h3 style="margin-left: 20px;"> Schedule for Atelier Club</h3>
+
+        <section id="Schedule"> 
+            <table border="1" style="width: 60%; border-collapse: collapse; text-align: center; margin: 20px;">
+                <tr> 
+                    <th colspan="3"> Atelier Club Schedule </th>
+                </tr>
+                <tr> 
+                    <td> Day </td>
+                    <td> Time </td> 
+                    <td> Activity </td>
+                </tr>
+                <tr> 
+                    <td> Monday </td>
+                    <td> 12:00 PM - 1:30 PM </td>
+                    <td> Digital Art Workshop </td>
+                </tr>
+                <tr> 
+                    <td> Wednesday </td>
+                    <td> 2:00 PM - 3:30 PM </td>
+                    <td> Design Thinking Seminar </td>
+               
+                <tr> 
+                    <td rowspan="2">Friday</td>
+                    <td>11:00 AM - 1:30 PM</td>
+                    <td>Community Project Collaboration</td>
+                    </tr>  
+                    <tr>
+                    <td>1:30 PM - 3:00 PM</td>
+                    <td> Digital Art Weekly Exhibitions </td>
+                </tr>
+            </table>
+        </section>
+        <br> 
+        <hr> 
+        <br> 
+        <section id="Location">
+            <h3 style="margin-left: 20px;"> Location of Atelier Club Room </h3>
+            <p style="margin-left: 20px;"> The Atelier Club is located in the Digital Arts Building, Room 204. </p>
+            <iframe style="margin-left: 20px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.2981357264607!2d120.9871392!3d14.582080100000013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ca276599b69f%3A0xa91698dbd9481111!2sEmilio%20Aguinaldo%20College%2C%20EAC%20Building%205%2C%20Gonzales%20St%2C%20Paco%2C%20Manila%2C%201004%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1787892011929!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"> </iframe>
+        </section>
+        <br> 
+        <hr>
+        <br> 
+        <section id="Contact"> 
+            <h3> Contact Information </h3>
+            <form action="save.html" method="GET">
+                <label for="name"> Name: </label>
+                <input type="text" id="name" name="name" placeholder="Enter your Full Name" required> <br> <br>
+
+                <label for="email"> Email: </label>
+                <input type="email" id="email" name="email" placeholder="Enter your Email"required> <br> <br>
+
+                <label for="grade"> Grade Level: </label>
+                <select id="grade" name="grade" required>
+                    <option value="">Select your Grade Level </option>
+                     <option value="Grade 10"> Grade 10 </option>
+                    <option value="Grade 11"> Grade 11 </option>
+                    <option value="Grade 12"> Grade 12 </option>
+                </select> <br> <br>
+
+                <label> Interests: <label> <br> 
+                    <input type="radio" name="interests" value="Digital Painting"> 
+                    <label for="Digital Painting"> Digital Painting </label> <br>
+
+                    <input type="radio" name="interests" value="Vector Art"> 
+                    <label for="Vector Art"> Vector Art </label> <br>
+                    
+                    <input type="radio" name="interests" value="3D Art & Modeling"> 
+                    <label for="3D Art & Modeling"> 3D Art & Modeling </label> <br>
+
+                    <input type="radio" name="interests" value="Pixel Art"> 
+                    <label for="Pixel Art"> Pixel Art </label> <br>
+
+                    <input type="radio" name="interests" value="Concept Art & Matte Painting"> 
+                    <label for="Concept Art & Matte Painting"> Concept Art & Matte Painting </label> <br>
+                    
+                    <input type="radio" name="interests" value="Generative & Algorithmic Art"> 
+                    <label for="Generative & Algorithmic Art"> Generative & Algorithmic Art </label> <br>
+
+                    <input type="radio" name="interests" value="Photo Manipulation & Digital Collage"> 
+                    <label for="Photo Manipulation & Digital Collage"> Photo Manipulation & Digital Collage </label> <br>
+                    
+                <label for="message"> Message: </label> <br>
+                <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter your message here..." required> 
+                </textarea> <br> <br>
+             <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+</body>
+</html> 
